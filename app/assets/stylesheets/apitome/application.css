@@ -43,12 +43,8 @@ pre code {
   position: static;
 }
 .sidenav {
-  margin-top: 30px;
-  margin-bottom: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #f4f3ee;
-  border-radius: 5px;
 }
 .sidebar .nav > li > a {
   display: block;
@@ -136,6 +132,9 @@ body.single-page .docs-section > section.readme article {
 }
 
 .sidebar {
-    overflow: auto;
-    max-height: 550px;
+  margin-top: 30px;
+  background-color: #f4f3ee;
+  border-radius: 5px;
+  overflow: auto;
+  height: calc(100vh - 100px);
 }
