@@ -135,6 +135,9 @@ body.single-page .docs-section > section.readme article {
   margin-top: 30px;
   background-color: #f4f3ee;
   border-radius: 5px;
+}
+
+.single-page .sidebar {
   overflow: auto;
   height: calc(100vh - 100px);
 }
